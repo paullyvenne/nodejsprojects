@@ -1,0 +1,17 @@
+<div class="hero-unit">
+  <h2>All Users</h2>
+  <a href="/users/add" class="btn pull-right">Create a new User</a>
+</div>
+
+<div id="users-list">
+{{#each users }}
+  <div class="row list-item" id="user-{{id}}">
+    <div class="span8">
+      <h3><a href="/users/{{id}}">{{id}}</a></h3>
+    </div>
+    <div class="span4">
+      <h3><i class="icon-list-alt"></i>{{id}}</h3>
+    </div>
+  </div>
+{{/each}}
+</div>

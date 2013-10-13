@@ -1,0 +1,2 @@
+[Tue, 16 Jul 2013 05:58:57 GMT] ERROR 127.0.0.1 - - [Tue Jul 16 2013 01:58:57 GMT-0400 (EDT)] "GET / 1.1" 500 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36"
+[Tue, 16 Jul 2013 05:58:58 GMT] ERROR 127.0.0.1 - - [Tue Jul 16 2013 01:58:58 GMT-0400 (EDT)] "GET / 1.1" 500 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36"

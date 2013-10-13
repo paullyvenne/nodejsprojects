@@ -1,0 +1,66 @@
+
+/**
+ * Module dependencies.
+ */
+
+var express = require('express')
+  , routes = require('./routes')
+  , user = require('./routes/user')
+  , http = require('http')
+  , path = require('path');
+
+var app = express();
+
+// all environments
+app.set('port', process.env.PORT || 3000);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.use(express.favicon());
+app.use(express.logger('dev'));
+app.use(express.bodyParser());
+app.use(express.methodOverride());
+app.use(express.cookieParser('your secret here'));
+app.use(express.session());
+app.use(app.router);
+app.use(require('stylus').middleware(__dirname + '/public'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+// development only
+if ('development' == app.get('env')) {
+  app.use(express.errorHandler());
+}
+
+// Routes
+app.get('/', routes.index);
+app.get('/users', user.list, functions() {
+	
+});
+app.get('/info', null, function() {
+	
+});
+
+// Server
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+  main()
+});
+
+
+// Main
+function main() {
+  init();
+  end();
+}
+
+
+// Helpers
+
+function init() {
+  var i = 100;
+  return i;
+}
+
+function end() {
+  var a = 0;
+  return a;
+}

@@ -1,0 +1,15 @@
+#!/bin/bash
+mkdir $1
+cd $1
+npm install express
+npm install mongode
+npm install jade
+npm install now
+npm install underscore
+
+node ./node_modules/express/bin/express -e -s -c stylus  -f
+npm install
+ls
+echo "All set!"
+
+node app.js

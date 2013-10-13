@@ -1,0 +1,54 @@
+[Tue, 16 Jul 2013 05:48:08 GMT] INFO Server starting with config: {
+  "environment": "init",
+  "workers": 2,
+  "port": 4000,
+  "spdy": null,
+  "ssl": null,
+  "flash": {
+    "defaultClass": "alert",
+    "inlineClasses": {
+      "success": "alert alert-success",
+      "alert": "alert",
+      "error": "alert alert-error",
+      "info": "alert alert-info"
+    },
+    "blockClasses": {
+      "success": "alert alert-block alert-success",
+      "alert": "alert alert-block",
+      "error": "alert alert-block alert-error",
+      "info": "alert alert-block alert-info"
+    }
+  },
+  "debug": false,
+  "rotateWorkers": true,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/Users/paullyvenne/Documents/nodejs/g1/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/Users/paullyvenne/Documents/nodejs/g1/public",
+  "cacheControl": {
+    "expires": {
+      "default": 0
+    }
+  },
+  "sessions": {
+    "store": "cookie",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/Users/paullyvenne/Documents/nodejs/g1/config/locales"
+    ]
+  },
+  "hostname": null,
+  "fullHostname": null,
+  "connectCompatibility": false
+}
+[Tue, 16 Jul 2013 05:48:08 GMT] INFO Creating 2 worker processes.
+[Tue, 16 Jul 2013 05:48:08 GMT] INFO Model adapter not found for Site. Set .adapter for this model, or set model.defaultAdapter.
+[Tue, 16 Jul 2013 05:48:08 GMT] INFO Model adapter not found for Site. Set .adapter for this model, or set model.defaultAdapter.

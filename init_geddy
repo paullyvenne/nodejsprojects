@@ -1,0 +1,8 @@
+#!/bin/bash
+
+geddy gen app $1 --handle
+npm install underscore
+npm install handlebars
+
+npm install 
+ls echo "All set!"

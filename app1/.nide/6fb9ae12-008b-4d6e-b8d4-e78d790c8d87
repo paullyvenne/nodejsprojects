@@ -1,0 +1,8 @@
+{
+    "name": "App1",
+    "description": "App1",
+    "version": "0.1.0",
+    "author": "Paul Venne",
+    "dependencies": {},
+    "devDependencies": {}
+}
